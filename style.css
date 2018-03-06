@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  border: 10px solid #75d668;
+  border-radius: 6px;
+  background-color: #aaf7f7;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.book-image-container img {
+  height: 300px;
+  width: 260px;
+}
+
+.book {
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+}
+
+
+.book-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  height: 100%;
+  width: 100%;
+}
+
+.book-info-container {
+  text-align: left;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.book-price {
+  display: flex;
+  font-size: 150%;
+  font-color: Red;
+  padding: 3px;
+  margin: 3px 5px;
+  border-radius: 3px;
+}
+
+.navbar {
+  margin-left: 50px;
+
+}
+
+.navbarList {
+
+}
