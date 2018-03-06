@@ -1,0 +1,30 @@
+[
+{
+  "Name":"Discrete Mathematice and its Application",
+  "Image":,
+  "Price":"100",
+  "Catalog":"Math",
+  "Used Class":"Mth 231"
+},
+{
+  "Name":"Public Speaking",
+  "Price":"30",
+  "Image":,
+  "Catalog":"Public Speaking",
+  "Used Class":"COMM 111"
+},
+{
+  "Name":"Starting with C++",
+  "Image":,
+  "Price":"150",
+  "Catalog":"Computer Science",
+  "Used Class":"CS 161 & CS 162"
+},
+{
+  "Name":"Calaulus",
+  "Image":,
+  "Price":"100",
+  "Catalog":"Math",
+  "Used Class":"Mth 251 & Math 252",
+}
+]
