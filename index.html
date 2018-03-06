@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Fair Book</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Fair Book</h1>
+
+			<nav>
+        		<div class="navbarList">
+        			<div class="navbarItem"><a href="./index.html">Home</a></div>
+        			<div class="navbarItem"><a href="./about.html">About</a></div>
+        			<div class="navbarItem navbarRight"><a href="#">Login</a></div>
+        			<div class="navbarItem navbarRight"><a href="#">Register</a></div>
+        		</div>
+      </nav>
+
+      	</header>
+
+      	<main>
+      		<section class="Books">
+        	<h2>Your Books</h2>
+
+          	<!-- <ul class="bookList">
+            	<li>Picture of the Book</li>
+            	<li>Price</li>
+            	<li>Condition</li>
+            	<li>Access Code</li>
+          	</ul> -->
+						<div class="book" data-name="name" data-price="1" data-condition="new" data-access-code="xxx">
+						 <div class="book-contents">
+							 <div class="book-image-container">
+								 <img src="https://i.pinimg.com/originals/2f/67/49/2f674938937ca9bf280223b1188667a6.png" alt="book">
+							 </div>
+							 <div class="book-info-container">
+								 <a href="./book1.html" class="book-name">Book Name</a> <span class="book-price">price</span> <span class="book-condition">condition</span> <span class="book-access-code">Access Code</span>
+							 </div>
+						 </div>
+        	  </div>
+
+        	<div class="removeBookButton">
+        		<button id="removeBookButton">Remove Book</button>
+        	</div>
+      		</section>
+
+      		<div class="addBookButtonContainer">
+        		<button id="addBookButton">Add Book</button>
+      		</div>
+  		</main>
+
+	</body>
+</html>

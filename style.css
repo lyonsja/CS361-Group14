@@ -32,6 +32,12 @@ header {
     border-radius: 3px;
 }
 
+.seller{
+  float:right;
+  margin-right:200px;
+  border: 1px solid #dadada;
+  padding:30px;
+}
 
 .book-contents {
   display: flex;
