@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Fair Book</title>
+<head>
+  <title>Fair Book</title>
 
-    <link rel="stylesheet" href="style.css">
-  </head>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <header>
-			<h1>Fairbook&nbsp;&nbsp;</h1>
+<body>
+  <header>
+   <h1>Fairbook&nbsp;&nbsp;</h1>
 
-			<nav>
-        		<div class="navbarList">
-        			<div class="navbarItem"><a href="./index.html">Home</a></div>
-        			<div class="navbarItem"><a href="./about.html">About</a></div>
-        			<div class="navbarItem navbarRight"><a href="#">Login</a></div>
-        			<div class="navbarItem navbarRight"><a href="#">Register</a></div>
-        		</div>
-      </nav>
-    </header>
+   <nav>
+    <div class="navbarList">
+     <div class="navbarItem"><a href="./index.html">Home</a></div>
+     <div class="navbarItem"><a href="./about.html">About</a></div>
+     <div class="navbarItem navbarRight"><a href="#">Login</a></div>
+     <div class="navbarItem navbarRight"><a href="#">Register</a></div>
+   </div>
+ </nav>
+</header>
 
-    <main>
-      <h2> Shopping Cart </h2>
+<main>
+  <h2> Shopping Cart </h2>
 
-      <div class="book" data-name="name" data-price="1" data-condition="new" data-access-code="xxx">
-       <div class="book-contents">
-         <div class="book-image-container">
-           <img src="https://i.pinimg.com/originals/2f/67/49/2f674938937ca9bf280223b1188667a6.png" alt="book">
-         </div>
-         <div class="book-info-container">
-           <a href="./book1.html" class="book-name">Book Name</a> <span class="book-price">price</span> <span class="book-condition">condition</span> <span class="book-access-code">Access Code</span>
-         </div>
-       </div>
-      </div>
+  <div class="book">
+   <div class="book-contents">
+       <table id = "cart-table" cellspacing="10">
+        <tr>
+          <th>Name</th>
+          <th>Condition</th>
+          <th>Price</th>
+          <th>-</th>
+        </tr>
+        <tr id = "book1-row">
+          <td id = "book1-row"><a href="./book1.html" class="book-name">Book1</a></td>
+          <td id = "book1-row">New</td>
+          <td id = "book1-row">$100</td>
+          <td id = "book1-row"><button class="removeBookButton" id="book1-remove">Remove Book</button></td>
 
-    <div class="removeBookButton">
-      <button id="removeBookButton">Remove Book</button>
+        </tr>
+
+      </table> 
     </div>
-    </main>
+</div>
+
+<div class="checkOut">
+  <button class = "checkOut">Checkout</button>
+</div>
+
+<script src="cart.js"></script>
+</main>
 
 
-  </body>
+</body>
 </html>

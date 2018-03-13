@@ -1,6 +1,9 @@
 		
 
 
+document.getElementById("CartButton").addEventListener("click", function(){
+	document.location.href = "./myCart.html";
+});
 
 
 if(localStorage.getItem("new_element_toggle") == 1){
