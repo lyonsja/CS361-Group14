@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Fair Book</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Fairbook&nbsp;&nbsp;</h1>
+
+			<nav>
+        		<div class="navbarList">
+        			<div class="navbarItem"><a href="./index.html">Home</a></div>
+        			<div class="navbarItem"><a href="./about.html">About</a></div>
+        			<div class="navbarItem navbarRight"><a href="#">Login</a></div>
+        			<div class="navbarItem navbarRight"><a href="#">Register</a></div>
+        		</div>
+      </nav>
+
+    </header>
+
+      <main>
+        <div id="modal-backdrop" class="hidden"></div>
+        <div id="register-modal" class="hidden">
+          <div class="modal-dialog">
+
+            <div class="modal-header">
+              <h3>Create Your Fairbook Account</h3>
+              <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+              <div class="account-input-element">
+                <label for="account-email-input">Email Address</label>
+                <input type="text" id="account-text-input"></input>
+              </div>
+
+              <div class="account-input-element">
+                <label for="account-userName-input">User Name</label>
+                <input type="text" id="account-userName-input">
+              </div>
+    
+              <div class="account-input-element">
+                <label for="account-password-input">Password</label>
+                <input type="text" id="account-password-input">
+              </div>
+
+
+
+            <div class="modal-footer">
+              <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+              <button type="button" id="modal-accept" class="action-button">Create Account</button>
+            </div>
+  		</main>
+
+	</body>
+</html>
