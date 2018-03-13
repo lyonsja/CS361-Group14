@@ -71,3 +71,9 @@ header {
 .navbarList {
 
 }
+
+
+span:after{
+  content:"\a";
+  white-space: pre;
+}

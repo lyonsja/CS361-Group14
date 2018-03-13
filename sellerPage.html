@@ -3,7 +3,6 @@
 
   <head>
     <title>Fair Book</title>
-
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -46,21 +45,30 @@
           </div>
 
             <div class = "addBookCode">
-              <label for="Book-Code-Input">Access Code</label>
-              <input type="text" id="Book-Code-Input">
+              <p>Access Code</p>
+              <input type="radio" id="codeChoice1" name="access" value="yes">
+              <label for="codeChoice1">Yes</label>
+
+              <input type="radio" id="codeChoice2" name="access" value="no">
+              <label for="codeChoice2">No</label>
+
             </div>
           </div>
         </div>
         </div>
 
         <div class = "addBook">
-          <button id = add_book> Add Book </button>
+          <button id = "add_book"> Add Book </button>
         </div>
 
         <div class = "cancelAddBook">
-          <button id = cancel_book> Cancel </button>
+          <button id = "cancel_book"> Cancel </button>
         </div>
 
+        <script src="seller_script.js"></script>
       </main>
   </body>
+
+
+
 </html>
